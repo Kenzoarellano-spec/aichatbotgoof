@@ -153,7 +153,10 @@ export function Chat() {
         </p>
       </header>
 
-      <div ref={scroller} className="flex-1 space-y-6 overflow-y-auto py-8">
+      <div
+        ref={scroller}
+        className="min-h-0 flex-1 space-y-6 overflow-y-auto py-8"
+      >
         {messages.map((message, index) => (
           <article
             key={`${message.role}-${index}`}
