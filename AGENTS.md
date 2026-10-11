@@ -11,6 +11,7 @@ Before writing any code, stop at the first rung that holds:
 5. Does an already-installed dependency solve it? Use it.
 6. Can this be one line? Make it one line.
 7. Only then: write the minimum code that works.
+8. IF THE PROJECT HAS API'S, DONT USE THEM INSTEAD JUST ADD A PLACEHOLDER
 
 The ladder runs after you understand the problem, not instead of it: read the task and the code it touches, trace the real flow end to end, then climb.
 
